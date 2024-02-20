@@ -1,9 +1,4 @@
-.logo{
-    display: flex;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 body {
     background-color: rgb(200, 241, 241);
