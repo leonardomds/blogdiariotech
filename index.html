@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diário Tech - Leonardo Mateus</title>
     <link rel="stylesheet" href="base.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <img src="diariotechlogo.png" alt="">
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776 Menu</a>
     </header>
-    <main>
+    <nav id="menu">
+        
+        <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+
+    </nav>
+    <main id="conteudo">
+        <a class="btn-linkedin" href="https://www.linkedin.com/in/leomdsz/" target="_blank">
+            <img src="icons/iconlinkedin.png" alt="Logo linkedin" width="100px">
+        </a>
         <article>
             <h1>
-                <p>Teste</p>
+                Exemplo de sidenav
             </h1>
+            <p>Conteudo da Página</p>
         </article>
     </main>
 
