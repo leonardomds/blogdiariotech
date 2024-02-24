@@ -36,3 +36,27 @@ nav {
     color: #C0C0C0;
     transition: 1s background;
 }
+
+.container{
+
+   width: 980px;
+   padding: 20px;
+   margin: 0 auto;
+}
+
+.posts{
+    width: 760px;
+    background-color: #C0C0C0;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+}
+
+.barra-lateral {
+    width:140px;
+    background-color: #C0C0C0;
+    float: right;
+    padding: 20px;
+}
