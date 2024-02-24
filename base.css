@@ -35,10 +35,14 @@ nav {
   right: 20px;
   z-index: 1;
 }
-main {
-  background: url("./bg.jpg") center center;
+body{
+  background: url('bg.jpg') center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-
+}
+main {
   background-attachment: fixed;
   color: #fff;
   font-family: 'Arial Narrow Bold', sans-serif;
