@@ -36,7 +36,7 @@ nav {
   z-index: 1;
 }
 main {
-  background: url("./bg.jpg") no-repeat center center;
+  background: url("./bg.jpg") center center;
   background-size: cover;
 
   background-attachment: fixed;
